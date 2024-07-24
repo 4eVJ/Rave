@@ -1,10 +1,10 @@
 # Introduction
 
-It contains specifications of Rave.
+It contains the specifications of Rave.
 
 ## Lexical
 
-Lexical analysis splits the source code of the program into tokens for subsequent parsing.
+Lexical analysis splits the program's source code into tokens for subsequent parsing.
 
 The source text can be in the following encodings:
 - ASCII;
@@ -13,10 +13,10 @@ The source text can be in the following encodings:
 There are two types of comments: single-line and multi-line.
 
 Multilines start with /* and end with */.
-Single-lines start with //.
+Single lines start with //.
 
-Strings are indicated by text enclosed in double quoted ("").
-The characters are enclosed in single quotes (").
+Strings are indicated by text enclosed in double-quoted (").
+The characters are enclosed in single quotes (').
 
 ## Grammar
 
